@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>HTML Academy: Техномарт</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="32.ico">
+    <link rel="apple-touch-icon" href="img/152.png">
+    <link rel="manifest" href="manifest.webmanifest">
+  </head>
 
   <body class="page-body">
     <header class="main-header">
@@ -65,24 +69,26 @@
             <fieldset class="filter-manufactures">
               <legend>ПРОИЗВОДИТЕЛИ:</legend>
                 <ul>
-                  <li><input type="checkbox" name="BOSCH" checked>
-                    <label for="filter-bosch">BOSCH</label></li>
-                  <li><input type="checkbox" name="Интерскол">
+                  <li>
+                    <input type="checkbox" name="BOSCH" id="filter-bosch" checked>
+                    <label for="filter-bosch">BOSCH</label>
+                  </li>
+                  <li><input type="checkbox" name="Интерскол" id="filter-interskol">
                     <label for="filter-interskol">ИНТЕРСКОЛ</label></li>
-                  <li><input type="checkbox" name="Makita" checked>
+                  <li><input type="checkbox" name="Makita" id="filter-makita" checked>
                     <label for="filter-makita">MAKITA</label></li>
-                  <li><input type="checkbox" name="DeWALT">
+                  <li><input type="checkbox" name="DeWALT" id="filter-dewalt">
                     <label for="filter-dewalt">DEWALT</label></li>
-                  <li><input type="checkbox" name="HITACHI">
+                  <li><input type="checkbox" name="HITACHI" id="filter-hitachi">
                     <label for="filter-hitachi">HITACHI</label></li>
                 </ul>
             </fieldset>
             <fieldset class="filter-power">
               <legend>ПИТАНИЕ:</legend>
                 <ul>
-                  <li><input type="checkbox" name="battery" checked>
+                  <li><input type="checkbox" name="battery" id="filter-battery" checked>
                     <label for="filter-battery">АККУМУЛЯТОРНЫЕ</label></li>
-                  <li><input type="checkbox" name="power">
+                  <li><input type="checkbox" name="power" id="filter-power">
                     <label for="filter-power">СЕТЕВЫЕ</label></li>
                 </ul>
             </fieldset>
@@ -95,61 +101,69 @@
             <li><a href="#">ПО ТИПУ</a></li>
             <li><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
           </ul>
-          <ul class="products">
+          <ul class="multitabs-products">
             <li>
               <a href="product.html">
-              <p><b>Перфоратор BOSCH BFG 6000</b></p>
-              <p><s>30500</s></p></a>
-              <a href="#">25500</a>
+                <p><b>Перфоратор BOSCH BFG 6000</b></p>
+                  <img src="img/bosch-6000.png" alt="bosch-6000">
+                    <p><s>30500</s></p></a>
+                      <a href="#">25500</a>
             </li>
             <li>
-              <a href="product.html">
-              <p><b>Перфоратор BOSCH BFG 6000</b></p>
-              <p><s>30500</s></p></a>
-              <a href="#">25500</a>
+              <a href="product.html"><p><b>Перфоратор BOSCH BFG 6000</b></p>
+                <img src="img/bosch-6000.png" alt="bosch-6000">
+                  <p><s>30500</s></p></a>
+                    <a href="#">25500</a>
             </li>
             <li>
               <a href="#">КУПИТЬ</a>
-              <a href="#">В ЗАКЛАДКИ</a>
-              <a href="#"><b>Перфоратор BOSCH BFG 6000</b>
-              <p><s>30500</s></p></a>
-              <a href="#">25500</a>
+                <a href="#">В ЗАКЛАДКИ</a>
+                  <a href="#"><b>Перфоратор BOSCH BFG 6000</b>
+                    <p><s>30500</s></p>
+                      <span>New</span></a>
+                        <a href="#">25500</a>
+            </li>
+            <li>
+              <a href="product.html"><p><b>Перфоратор BOSCH BFG 3000</b></p>
+                <img src="img/bosch-3000.png" alt="bosch-3000">
+                  <p><s>22500</s></p>
+                    <span>New</span></a>
+                      <a href="#">25500</a>
+            </li>
+            <li>
+              <a href="product.html"><p><b>Перфоратор BOSCH BFG 6000</b></p>
+                <img src="img/bosch-6000.png" alt="bosch-6000">
+                  <p><s>30500</s></p></a>
+                    <a href="#">25500</a>
+            </li>
+            <li>
+              <a href="product.html"><p><b>Перфоратор BOSCH BFG 2000</b></p>
+                <img src="img/bosch-2000.png" alt="bosch-2000">
+                  <p><s>22500</s></p>
+                    <span>New</span></a>
+                      <a href="#">12500</a>
+            </li>
+            <li>
+              <a href="product.html"><p><b>Перфоратор BOSCH BFG 3000</b></p>
+                <img src="img/bosch-3000.png" alt="bosch-3000">
+                  <p><s>22500</s></p>
+                    <span>New</span></a>
+                      <a href="#">25500</a>
             </li>
             <li>
               <a href="product.html">
-              <p><b>Перфоратор BOSCH BFG 3000</b></p>
-              <p><s>22500</s></p></a>
-              <a href="#">25500</a>
-            </li>
-            <li>
-              <a href="product.html">
-              <p><b>Перфоратор BOSCH BFG 6000</b></p>
-              <p><s>30500</s></p></a>
-              <a href="#">25500</a>
-            </li>
-            <li>
-              <a href="product.html">
-              <p><b>Перфоратор BOSCH BFG 2000</b></p>
-              <p><s>22500</s></p></a>
-              <a href="#">12500</a>
-            </li>
-            <li>
-              <a href="product.html">
-              <p><b>Перфоратор BOSCH BFG 3000</b></p>
-              <p><s>22500</s></p></a>
-              <a href="#">25500</a>
-            </li>
-            <li>
-              <a href="product.html">
-              <p><b>Перфоратор BOSCH BFG 6000</b></p>
-              <p><s>30500</s></p></a>
-              <a href="#">25500</a>
+                <p><b>Перфоратор BOSCH BFG 6000</b></p>
+                  <img src="img/bosch-6000.png" alt="bosch-6000">
+                    <p><s>30500</s></p></a>
+                      <a href="#">25500</a>
             </li>
             <li>
               <a href="product.html">
                 <p><b>Перфоратор BOSCH BFG 2000</b></p>
-                <p><s>22500</s></p></a>
-                <a href="#">12500</a>
+                  <img src="img/bosch-2000.png" alt="bosch-2000">
+                    <p><s>22500</s></p>
+                      <span>New</span></a>
+                        <a href="#">12500</a>
             </li>
           </ul>
         </div>
@@ -168,7 +182,7 @@
           <p>В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="top-footer">
         <span><a href="index.html">ТЕХНОМАРТ</a></span>
           <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
@@ -187,7 +201,7 @@
             </ul>
               <span>&copy; 2010–2019 Компания «Техномарт»</span>
               <span>Все права защищены</span>
-            <ul class="footer-social">
+            <ul class="bottom-footer">
               <li><a href="#"><img src="image/vk-logo.png" alt="VK"></a></li>
               <li><a href="#"><img src="image/twitter-logo.png" alt="Twitter"></a></li>
               <li><a href="#"><img src="image/insta-logo.png" alt="Instagram"></a></li>
@@ -196,5 +210,13 @@
           <p>Разработано <a href="htmlacademy.ru">htmlacademy.ru</a></p>
       </div>
     </footer>
+
+<div class="modal-buy">
+  <img src="img/icon-mark.svg" alt="Complete">
+    <p>Товар добавлен в корзину!</p>
+  <button type="button" value="submit">Оформить заказ</button>
+  <button type="button" value="continue">Продолжить покупки</button>
+</div>
+
   </body>
 </html>
