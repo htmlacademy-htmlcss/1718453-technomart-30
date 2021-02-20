@@ -440,13 +440,15 @@ img {
 
 /* Footer */
 
-.footer {
+/* .footer {
   outline: 5px solid rgba(255, 0, 0, 0.7);
   outline-offset: -5px;
-}
+} */
 
 .top-footer {
   background-color: #32425C;
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
 }
 
 .top-footer p {
@@ -492,6 +494,8 @@ img {
 
 .footer-social {
   text-align: center;
+  outline: 5px solid rgba(0, 255, 0, 0.7);
+  outline-offset: -5px;
 }
 
 .footer-social li {
@@ -510,6 +514,11 @@ img {
 .bottom-footer span,
 .bottom-footer p {
   color: var(--basiс-white);
+}
+
+.footer-copyright {
+  outline: 5px solid rgba(255, 0, 255, 0.7);
+  outline-offset: -5px;
 }
 
 .footer-copyright a:hover {
